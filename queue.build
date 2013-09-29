@@ -1,0 +1,15 @@
+{
+"name" : "queue",
+"link" : false,
+"archive" : true,
+"archived-file" : "queue.a",
+"source-files" : ["queue.c", "lock.c"],
+"compiler" : "gcc",
+"linker" : "gcc",
+"archiver" : "ar",
+"compiler-flags" : "",
+"linker-flags" : "",
+"archiver-flags" : "",
+"compiler-override-flags" : "-c",
+"archiver-override-flags" : "-rs"
+}
